@@ -1,0 +1,9 @@
+.godot/ 
+build/ 
+bin/ 
+*.apk 
+*.exe 
+*.pck 
+*.wasm 
+.vscode/ 
+Thumbs.db

@@ -1,0 +1,8 @@
+CharacterBody2D (PlayerBike)
+├── Sprite2D (Top-down view of the bike)
+├── CollisionPolygon2D (Body hitbox closely hugging the sides)
+├── MirrorHitboxLeft (Area2D - Left mirror)
+│   └── CollisionShape2D (Small circle)
+├── MirrorHitboxRight (Area2D - Right mirror)
+│   └── CollisionShape2D (Small circle)
+└── Camera2D (Attached with Screen Shake vibration effect)
