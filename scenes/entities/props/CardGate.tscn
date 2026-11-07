@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/entities/props/CardGate.gd" id="1_gate"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_barrier"]
+size = Vector2(98, 10)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_booth"]
+size = Vector2(64, 72)
+
+[node name="CardGate" type="Node2D"]
+z_index = 15
+script = ExtResource("1_gate")
+
+[node name="BarrierBody" type="StaticBody2D" parent="."]
+position = Vector2(4, -6)
+collision_layer = 1
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BarrierBody"]
+shape = SubResource("RectangleShape2D_barrier")
+
+[node name="BoothStatic" type="StaticBody2D" parent="."]
+position = Vector2(-88, -2)
+collision_layer = 1
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BoothStatic"]
+shape = SubResource("RectangleShape2D_booth")
+
+[node name="RightPostStatic" type="StaticBody2D" parent="."]
+position = Vector2(60, -6)
+collision_layer = 1
+collision_mask = 0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RightPostStatic"]
+polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[node name="ScanZone" type="Area2D" parent="."]
+position = Vector2(0, 42)
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="ScanZone"]
+polygon = PackedVector2Array(-42, -28, 42, -28, 42, 28, -42, 28)

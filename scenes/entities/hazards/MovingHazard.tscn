@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/entities/hazards/MovingHazard.gd" id="1_mh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mh"]
+radius = 12.0
+
+[node name="MovingHazard" type="CharacterBody2D"]
+z_index = 16
+collision_layer = 1
+collision_mask = 3
+motion_mode = 1
+script = ExtResource("1_mh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_mh")

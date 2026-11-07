@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/levels/Level04_CongChinhKhuA.gd" id="1_lv4"]
+
+[node name="Level04_CongChinhKhuA" type="Node2D"]
+script = ExtResource("1_lv4")
