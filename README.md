@@ -1,44 +1,54 @@
-# 🛵 D.U.T: Dare U To Park (Đại Chiến Nhà Xe Bách Khoa Đà Nẵng)
-> *A 2D top-down tactical bike parking survival game set at Da Nang University of Science and Technology (54 Nguyễn Lương Bằng & 60 Ngô Sĩ Liên).*
+# D.U.T: Dare U To Park (Đại Chiến Nhà Xe Bách Khoa Đà Nẵng)
 
-Trò chơi mô phỏng trải nghiệm gửi xe đầy kịch tính tại khuôn viên **Trường Đại học Bách khoa – Đại học Đà Nẵng (DUT)**: quẹt thẻ sinh viên tích hợp qua cổng Barie, né ổ gà ổ voi, vượt vũng nước mưa Liên Chiểu ngụy trang, bấm gập gương luồn qua khe hẹp 15cm giữa "rừng gương chiếu hậu" và gạt chân chống đỗ xe thành công trước **07:00:00 AM**!
+Trò chơi 2D góc nhìn từ trên xuống (top-down) mô phỏng việc tìm chỗ đỗ xe máy tại Trường Đại học Bách khoa – Đại học Đà Nẵng (cơ sở 54 Nguyễn Lương Bằng và 60 Ngô Sĩ Liên). Người chơi phải quẹt thẻ sinh viên qua cổng, né chướng ngại vật, gập gương luồn qua các khe hẹp và đỗ xe đúng quy định trước 07:00:00 AM.
 
----
+## Cơ chế Gameplay
 
-## 🎮 Tính năng & Cơ chế Gameplay
+**Phương tiện:**
 
-- **3 Chiến mã sinh viên miền Trung:**
-  - **Wave Alpha 110 (`43-K1`)** — Nhỏ gọn, đánh lái cực dẻo trong nhà xe hẹp.
-  - **Exciter 150 (`92-F1`)** — Đề-pa cực bốc cứu nguy sát giờ điểm danh 06:59 AM.
-  - **Vision Smartkey (`75-G1`)** — Đầm chắc, độ bền cao, giảm trẹo tay lái khi sụp ổ gà.
-- **Kỹ năng Gập gương chiến thuật (`E` / `Shift`):** Gập gương hai bên để thu hẹp bề ngang xe, lách qua khe 15cm giữa cột sắt và gương xe bạn mà không bị quẹt trừ HP; mở gương để chạy tốc độ tối đa và hiện vạch hỗ trợ căn lùi chuồng.
-- **5 Khu nhà xe đặc trưng của ĐH Bách khoa Đà Nẵng:**
-  1. **Khu E (Cổng phụ 60 Ngô Sĩ Liên):** Quẹt thẻ từ đầu cổng, né ổ gà sân trường kịp giờ Giải Tích 1.
-  2. **Khu B (Nhà xe chính giờ cao điểm):** Luồn lách qua "Rừng gương chiếu hậu" khe hẹp 15cm dưới mái tôn xanh xuyên thấu.
-  3. **Khu C – Hội trường F (Mùa mưa Liên Chiểu):** Đường ướt trơn trượt và bẫy ổ voi ngầm dưới các vũng nước đục sẫm màu.
-  4. **Khu A – Smart Building Khu S (54 Nguyễn Lương Bằng):** Né dàn ô tô giảng viên và thực hiện quy định **lùi chuồng quay đầu xe ra ngoài**.
-  5. **Đại chiến Thi Cuối Kỳ (06:58:20 AM):** Tổng hợp mọi thử thách khi các dãy ngoài đã kín sạch, tìm chỗ đỗ cuối cùng trước 07:00 AM!
-- **Chấm điểm Tín chỉ Bách Khoa:** Xếp hạng **A / B / C** (1–3 Sao) hoặc **F (Điểm danh vắng / Học lại!)**, tự động lưu tiến độ và kỷ lục.
+* **Wave Alpha 110:** Nhỏ gọn, góc đánh lái linh hoạt trong không gian hẹp (biển số 43-K1).
+* **Exciter 150:** Gia tốc lớn, phù hợp để rút ngắn thời gian khi sát giờ điểm danh (biển số 92-F1).
+* **Vision Smartkey:** Độ bền cao, giảm lệch tay lái khi va phải ổ gà (biển số 75-G1).
 
----
+**Cơ chế gương:**
 
-## 🕹️ Điều khiển (Controls)
+* **Gập gương:** Thu hẹp chiều ngang xe để lách qua khe 15cm giữa cột sắt và xe khác mà không bị trừ máu, nhưng bị giới hạn tốc độ.
+* **Mở gương:** Cho phép xe đạt tốc độ tối đa và hiển thị vạch hỗ trợ căn chỉnh khi lùi chuồng.
+
+**Màn chơi:**
+
+1. **Khu E:** Quẹt thẻ tại cổng phụ 60 Ngô Sĩ Liên và né ổ gà trên sân trường.
+2. **Khu B:** Di chuyển dưới mái tôn che khuất tầm nhìn và lách qua các dãy xe đỗ sát nhau giờ cao điểm.
+3. **Khu C:** Đường trơn trượt mùa mưa kèm các hố sâu ẩn dưới vũng nước đục trước Hội trường F.
+4. **Khu A:** Tránh ô tô giảng viên tại khu Smart Building và đỗ xe theo quy định lùi chuồng quay đầu ra ngoài.
+5. **Màn cuối:** Tổng hợp mọi thử thách vào khung giờ 06:58:20 AM mùa thi cuối kỳ khi các dãy ngoài đã kín chỗ.
+
+**Tính điểm:**
+
+* Xếp hạng theo thang điểm tín chỉ A, B, C hoặc F (quá giờ, phải chơi lại).
+* Tự động lưu tiến độ mở khóa màn chơi và kỷ lục cá nhân.
+
+## Điều khiển
 
 | Phím | Hành động |
-| :--- | :--- |
-| `W` / `↑` | Vặn ga (Tiến) |
-| `S` / `↓` | Phanh gấp / Lùi chân |
-| `A` / `D` hoặc `←` / `→` | Đánh lái trái / phải |
-| `E` / `Shift` | Gập / Mở gương chiếu hậu (Lách khe hẹp 15cm) |
-| `F` / `H` | Bóp còi nhắc người đi bộ / xe khác nhường đường |
-| `Space` | Gạt chân chống (Xác nhận đỗ xe trong ô) |
-| `R` | Chơi lại nhanh màn hiện tại |
-| `Esc` / `P` | Tạm dừng (Pause Menu) |
-| `M` | Bật / Tắt âm thanh |
+| --- | --- |
+| W, Mũi tên lên | Tăng tốc |
+| S, Mũi tên xuống | Phanh hoặc lùi |
+| A, D, Trái, Phải | Đánh lái |
+| E, Shift | Gập hoặc mở gương |
+| F, H | Bóp còi |
+| Space | Gạt chân chống |
+| R | Chơi lại màn |
+| Esc, P | Tạm dừng |
+| M | Bật hoặc tắt tiếng |
 
----
+## Công nghệ và Khởi chạy
 
-## 🛠️ Công nghệ & Khởi chạy
+* **Engine:** Godot Engine 4.7 (GDScript, 2D)
+* **Khởi chạy:** Mở thư mục DareU2Park trong Godot Engine, chọn Main Scene tại đường dẫn res://scenes/ui/MainMenu.tscn và nhấn F5.
 
-- **Engine:** Godot Engine 4.7 (`GDScript`, Top-down 2D)
-- **Chạy game:** Mở thư mục `DareU2Park/` trong **Godot Engine 4.x** và nhấn **F5** (Main Scene: `res://scenes/ui/MainMenu.tscn`).
+**Điểm thiếu sót:**
+
+* **Vênh phiên bản:** Bản gốc ghi Godot 4.7 ở trên nhưng dưới lại ghi 4.x; bạn cần chốt đúng phiên bản tối thiểu vì mở project 4.7 trên bản thấp hơn dễ gây lỗi hỏng scene.
+* **Thiếu bản build:** Tài liệu chỉ hướng dẫn chạy mã nguồn cho lập trình viên, hoàn toàn thiếu thông tin tải file thực thi cho người chỉ muốn tải về chơi thử.
+* **Diễn đạt ngược:** Bản gốc ghi mở gương để chạy tốc độ tối đa dễ gây hiểu nhầm mở gương là nút tăng tốc; thực tế trạng thái mặc định đã mở gương và việc gập gương mới làm giảm tốc độ.
